@@ -33,6 +33,11 @@ process.on('SIGTERM', () => {
   process.exit(0);
 });
 
+
+
+
+
+
 process.on('SIGINT', () => {
   console.log('SIGINT signal received: closing gracefully');
   process.exit(0);
